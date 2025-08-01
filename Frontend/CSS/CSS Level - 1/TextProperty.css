@@ -1,0 +1,48 @@
+h1{
+   text-align: center;
+   text-decoration: wavy red underline;
+   letter-spacing: 5px;
+   font-size: 30px;
+   font-family: lucida;
+}
+
+h2{
+   font-weight: normal;
+   text-decoration: double blue overline;
+}
+
+h3{
+   text-align: center;
+   text-decoration: pink line-through;
+}
+
+p{
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* "text-align" Property is used to align text in left,right,center or justify. */
+
+/* "font-weight" Property is used to make the text lighter or bolder. */
+
+/* "text-decoration" Property sets the appearance of decorative lines on text
+   like underline. */
+/* Famous use of "text-decoration" Property is to remove the by default 
+   underline of anchor tag. */
+
+/* "line-height" Property controls the height of the line of text. */
+
+/* "letter-spacing" Property controls the horizontal spacing behaviour between
+   text characters. */
+
+/* "font-size" Property is used to control the size of fonts. */
+
+/* "font-family" Property specifies a prioritized list of one or more
+   font family names. */

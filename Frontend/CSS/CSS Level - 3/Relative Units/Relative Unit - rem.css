@@ -1,0 +1,10 @@
+section{
+        font-size: 15px;
+}
+
+div{
+    font-size: 2rem;
+}
+
+
+/* ---> "rem" used to make element properties relative to Font size of the root element. */

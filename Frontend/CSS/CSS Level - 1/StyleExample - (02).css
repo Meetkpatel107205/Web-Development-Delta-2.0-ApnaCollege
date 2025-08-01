@@ -1,0 +1,35 @@
+h1{
+   color: rgb(255,255,255);
+   background-color: rgb(0,0,0);
+}
+
+h2{
+   color: rgb(0,255,0);
+}
+
+h3{
+   color: rgb(120,0,120);
+}
+
+h4{
+   color: #ffffff;
+   background-color: #10de1d;
+}
+
+p{
+  color: rgb(255,255,0);
+}
+
+
+/* This is "RGB(Red,Green,Blue) Color System" to add colors in html. */
+/* The Range Of RGB colors is 0 to 255. */
+
+/* In Line 15 there is "Hexadecimal Representation" of colors. */
+/* Range of Hexcode's of colors is 00 - ff that is similar to 0 - 255. */
+/* First two digit of hexcode represents "Red color" of RGB System. */
+/* Middle two digit of hexcode represents "Green color" of RGB System. */
+/* Last two digit of hexcode represents "Blue color". of RGB System. */
+
+/* Red + Green = Yellow */
+/* Green + Blue = Light Blue(Sky Blue) */
+/* Blue + Red = Pinkish Color */

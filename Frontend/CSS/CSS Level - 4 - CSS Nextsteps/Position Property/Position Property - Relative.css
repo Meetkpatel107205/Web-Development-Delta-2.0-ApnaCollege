@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#Relative{
+          background-color: yellow;
+          position: relative;
+          top: 100px;
+          left: 100px;
+}
+
+/* ---> In "position: relative" the offset is relative to itself based on the value of
+        top,right,bottom and left. */

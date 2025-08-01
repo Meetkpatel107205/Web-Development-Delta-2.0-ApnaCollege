@@ -1,0 +1,83 @@
+/*[1.]*/ /* focus */
+input:focus{
+            border: 3px solid hotpink;  
+}
+/* Not Works on radio button,checkboxes and select element. */
+
+/*[2.]*/ /* checked */
+input[type="checkbox"]:checked + label{
+                               box-shadow: 0 0 0 3px red;  
+}
+
+input[type="radio"]:checked + label{
+                                    color: red;
+}  
+/*Works only with radio button and checkboxes. */
+
+/*[3.]*/ /* enabled And disabled */
+
+input[type="text"]:enabled{
+                           font-family: Georgia;
+}
+
+input[type="select"]:disabled{
+                              border: 2px solid orangered;
+}
+
+/*[4.]*/ /* required And optional */
+
+input:required{
+               border: 2px solid magenta;
+}
+
+input:optional{
+               background-color: lime;
+}
+
+/*[4.]*/ /* in-range And out-of-range */
+
+input:in-range{
+               background-color: crimson;
+}
+
+input:out-of-range{
+                   background-color: wheat;
+}
+
+/*[5.]*/ /* read-only And read-write */
+
+input:read-only{
+                font-weight: bold;
+}
+
+input:read-write{
+                 text-transform: lowercase;
+}
+
+/*[6.]*/ /* valid And invalid */
+
+input[type="email"]:valid{
+                          background-color: lightgreen;
+}
+
+input[type="email"]:invalid{
+                            background-color: lightseagreen;
+}
+
+/*[7.]*/ /* default */
+
+input:default{
+              box-shadow: 0 0 0 3px red;
+}
+
+/*[8.]*/ /* root */
+
+:root{
+      --mainColor: gold;
+}
+
+h1{
+   color: var(--mainColor);
+}
+
+/* ":root" Pseudo Class is used to create variables. */

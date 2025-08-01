@@ -1,0 +1,20 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+    /* display: inline; */
+    /* ---> If we write the above line then the block element will conveted into inline element
+            But it will loss it block properties and behave line inline element. */
+
+    display: inline-block;
+    /* ---> If we want to convert a block element into inline element without lossing it's
+            properties then we have to write above given line. */
+}
+
+#Third{
+       display: none;
+
+       /* ---> Above given line don't display the particular element. */
+}

@@ -1,0 +1,66 @@
+#Container{
+           height: 500px;
+           width: 80%;
+           background-color: azure;
+           margin: 10px auto;
+           border: 2px solid black;
+
+           /* Flex Box */
+
+           display: flex;
+           flex-direction: row;
+}
+
+h1{
+   text-align: center;
+}
+
+#Container div{
+               height: 100px;
+               width: 300px;
+               color: white;
+               text-align: center;
+               font-size: 1.5em;
+}
+
+/* Flex Box ( Flexible Box Layout ) :- It is a one-dimensional layout method for arranging items in 
+                                       rows or columns. */
+
+/*Flex Box is used to make out website responsive. */
+
+/* +------------------------------------------------+ 
+   |                                                |
+   |    +----+    +----+    +----+                  | /*! <---- Flex Container
+   |    |    |    |    |    |    |                  |
+   |    |    |    |    |    |    |  <---+           |
+   |    +----+    +----+    +----+      |           |
+   |      1         2         3         |           | 
+   |                                    |           | 
+   |                                    |           | 
+   +------------------------------------|-----------+
+                                        |
+                                 /*! Flex Items 
+
+*/
+
+/* Flex Direction :- It sets ho flex items are placed in the flex container,along which axis and
+                     direction. 
+                     
+                     -> flex-direction : row;            /* //TODO: main axis,left to right
+                     -> flex-direction : row-reverse;    /* //TODO: main axis,right to left
+                     -> flex-direction : column;         /* //TODO: main axis,top to bottom
+                     -> flex-direction : column-reverse; /* //TODO: main axis,bottomm to top
+*/
+
+/*                 |                                            |               |
+                   |                                            |               |
+/*! Start -> ------|----------------------- main axis <- End    | End -> -------|------------------------ cross axis <- Start
+                   |                                            |               |
+                   |                                            |               |
+                   |                                            |               |
+                   |       direction = row                      |               |       direction = row-reverse
+                   |                                            |               |
+                   |                                            |               |
+                   |                                            |               |    
+               cross axis                                       |           main axis
+*/ 

@@ -1,0 +1,134 @@
+/*[1.]*/ /* first-child And last-child */
+
+/* first-child */
+li:first-child{
+               color: red;
+}
+
+/* last-child With Id */
+#list-two li:last-child{
+              color: purple;
+}
+
+/*[2.]*/ /* nth-child() */
+li:nth-child(3){
+               color: hotpink;  
+}
+
+/* nth-child() With Id */
+#list-two li:nth-child(3){
+                          color: aqua;  
+}
+
+/* nth-child() With Id That Print Even Child only */
+#list li:nth-child(2n){
+                       color: goldenrod;  
+}
+/* Top-Bottom Approach */
+
+/*[3.]*/ /* nth-last-child() */
+
+#list li:nth-last-child(1){
+                     color: blueviolet;
+}
+/* Bottom - Top Approach */
+
+/*[4.]*/ /* nth-of-type() */
+
+p:nth-of-type(2n){
+                  color: brown;
+}
+/* Top-Bottom Approach */
+/* Selects both with child and without child elements */
+
+/*[5.]*/ /* nth-last-of-type() */
+
+p:nth-last-of-type(3){
+                  color: darkgreen;
+}
+/* Bottom - Top Approach */
+/* Selects both with child and without child elements */
+
+/*[6.]*/ /* only-child */
+
+li:only-child{
+              text-decoration: line-through;
+}
+/* Selects elements that is only child of parent */
+
+/*[7.]*/ /* only-of-type() */
+
+p:only-of-type{
+               font-weight: bolder;
+}
+
+/*[8.]*/ /* first-of-type() */
+
+h1:first-of-type{
+                 color: blue;
+}
+
+/*[9.]*/ /* last-of-type() */
+
+h1:last-of-type{
+                 color: red;
+}
+
+/*[10.]*/ /* empty */
+
+div:empty{
+          border: 3px solid red;
+}
+/* ":empty" Pseudo Class target's empty elements that
+   not contain any text,numbers,blankspace or whitespace. */
+
+/*[11.]*/ /* not() */
+
+p:not(.test){
+      background-color: blanchedalmond;
+}
+/* "not()" Pseudo Class target's elements that not contain
+   the given argument. */
+
+/*[12.]*/ /* lang() */
+
+p:lang(fr){
+           text-decoration: wavy chocolate underline;
+}
+
+/*[13.]*/ /* link */
+
+ul a:link{
+          font-weight: bold;
+          color: blue;
+}
+
+/*[14.]*/ /* hover */
+
+#B:hover{
+         color: magenta;
+}
+
+h1:hover{
+    color: magenta;
+}
+
+/*[15.]*/ /* visited */
+
+ul a:visited{
+            color: black;
+}
+/* Works only on link. */
+/* Works only on static site. */
+
+/*[16.]*/ /* active */
+
+ul a:active{
+            color: pink;
+}
+
+/*[17.]*/ /* target */
+
+p:target{
+         background-color: gold;
+}

@@ -1,0 +1,30 @@
+span{
+     background-color: purple;
+     border: 2px solid black;
+     height: 100px;
+     width: 200px;
+     padding: 50px;
+     margin: 20px;
+}
+
+div{
+    background-color: purple;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+}
+
+/* ---: For Inline Element's :--- */
+
+/* ---> If we give "height and width" properties to the Inline Element then it will not work,
+        margins will work horizontlly(Left and Right) but no vertically(Top and Bottom).*/
+/* ---> For Inline Elements padding works on all sides, but the top and bottom may
+        overlap other elements. */
+
+/* ---: For Block Element's :--- */
+
+/* ---> If we give "height and width" properties to the Block Element then it will work,
+        margins will work both horizontlly(Left and Right) and vertically(Top and Bottom).*/
+/* ---> For Block Elements padding and margin works on all sides. */

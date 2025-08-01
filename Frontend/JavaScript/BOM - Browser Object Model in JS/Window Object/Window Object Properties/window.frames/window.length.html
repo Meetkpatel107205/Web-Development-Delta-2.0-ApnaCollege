@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Object Methods : window.length</title>
+</head>
+<body>
+      <h1>The Window Object</h1>
+      <h2>The frames Property</h2>
+
+      <iframe style="width:100%;height:100px"></iframe>
+      <iframe style="width:100%;height:100px"></iframe>
+      <iframe style="width:100%;height:100px"></iframe>
+
+      <script>
+              let length = window.length;
+
+              console.log("Number of frames in this window : ",length);
+      </script>
+</body>
+</html>
+
+<!-- 
+
+     -> The length property returns the number of (framed) windows in the window.
+     -> The length property is read-only.
+     -> The windows can be accessed by index numbers.The first index is 0.
+
+*       +------------------------+
+*    => | Syntax : window.length |
+*       +------------------------+
+
+     ->  +============+==============================================+
+         |    Type    | Descriptioin                                 |
+         +============+==============================================+
+         |  A number  | The number of windows in the current window. |
+         +===========+===============================================+
+
+-->

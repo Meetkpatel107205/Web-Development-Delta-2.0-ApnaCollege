@@ -1,0 +1,15 @@
+div.greetDiv .greet{
+                    color: green !important;
+}
+
+.greetDiv p.greet{
+                  color: blue;
+}
+
+.greetDiv .greet{
+                 color: red;
+}
+
+
+/* "!important" is to show the most specific thing in
+   document. */

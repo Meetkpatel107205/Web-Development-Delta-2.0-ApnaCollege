@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Object Methods : window.frameElement</title>
+</head>
+<body>
+      <h1>The Window Object</h1>
+      <h2>The frameElement Property</h2>
+      
+      <script>
+              let answer = "NO";
+              
+              if(window.frameElement)
+              {
+                answer = "YES";
+              }
+
+              console.log("Is this window in a frame? :",answer);
+      </script>
+</body>
+</html>
+
+<!-- 
+
+     -> The frameElement property returns the frame where the window runs.
+     -> The frameElement property returns null if the window does not run in a frame.
+     -> The frameElement property is read only.
+
+     => Note :-
+
+     -> A frame can be any embedding element: <frame>,<iframe>,<embed>,<object>,etc.
+
+*       +----------------------------------------------------+
+*    => | Syntax : window.frameElement ---OR--- frameElement | 
+*       +----------------------------------------------------+
+
+     -> +============+===============================================+
+        |    Type    | Descriptioin                                  |
+        +============+===============================================+
+        |  An object | The host of the window (the parent document). |
+        |            | Or null if no host exists.                    |
+        +============+===============================================+
+
+-->

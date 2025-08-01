@@ -1,0 +1,161 @@
+===> JavaScript Errors :-
+
+---> Throw,and Try...Catch...Finally :-
+
+  -> The try statement defines a code block to run (to try).
+  -> The catch statement defines a code block to handle any error.
+  -> The finally statement defines a code block to run regardless of the result.
+  -> The throw statement defines a custom error.
+
+---> Errors Will Happen! :-
+
+  -> When executing JavaScript code,different errors can occur.
+  -> Errors can be coding errors made by the programmer, errors due to wrong input, and other unforeseeable things.
+
+  => Example :-
+
+  -> In this example we misspelled "alert" as "adddlert" to deliberately produce an error:
+
+     +--------------------------------+
+     |                                |
+     | try                            |
+     | {                              |
+     |    adddlert("Welcome guest!"); | 
+     | }                              |
+     | catch(err)                     |
+     | {                              |
+     |    console.log(err);           |
+     | }                              |
+     |                                |
+     +--------------------------------+
+
+  -> JavaScript catches adddlert as an error, and executes the catch code to handle it.
+
+---> JavaScript try and catch :-
+
+  -> The try statement allows you to define a block of code to be tested for errors while it is being executed.
+  -> The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+  
+  -> The JavaScript statements try and catch come in pairs :-
+
+     +-----------------------------------+
+     |                                   |
+     | try                               |
+     | {                                 |
+     |    Block of code to try           |
+     | }                                 |
+     | catch(err)                        |
+     | {                                 |
+     |    Block of code to handle errors |
+     | }                                 |
+     |                                   |
+     +-----------------------------------+
+
+---> JavaScript Throws Errors :-
+
+  -> When an error occurs, JavaScript will normally stop and generate an error message.
+  -> The technical term for this is: JavaScript will throw an exception (throw an error).
+
+  =>   What is an Exception?
+  Ans. An exception is an event that occurs during the execution of a program that disrupts the normal flow of
+       instructions. Exceptions are often the result of runtime errors(e.g.,referencing a undefined variable,
+       dividng by zero,or attempting to access a property of null or undefined).
+
+                                        +-----------------------------------------------------+
+  => JavaScript will actually create an | Error Object with two properties: name and message. |
+                                        +-----------------------------------------------------+
+
+---> The throw statement :-
+
+  -> The throw statement allows you to create a custom error.
+  -> Technically you can throw an exception (throw an error).
+
+  -> The exception can be a JavaScript String,a Number,a Boolean or an Object :-
+
+     +---------------------------------------+
+     |                                       |
+     | throw "Too big"; // ---> throw a text |
+     | throw 500; // ---> throw a Number     |
+     |                                       |
+     +---------------------------------------+
+
+      +============+=================================================+
+   -> | Parameter  | Description                                     |
+      +============+=================================================+
+      | expression | Required.                                       |
+      |            | The exception to throw.                         |
+      |            | Can be a string, number, boolean, or an object. |           |
+      +============+=================================================+
+
+  -> If you use throw together with try and catch, you can control program flow and generate custom error messages.
+
+---> The finally statement :-
+
+  -> The finally statement lets you execute code, after try and catch, regardless of the result :-
+
+               +------------------------------------------------------------------+
+  => Syntax :- |                                                                  |
+               | try                                                              |
+               | {                                                                |
+               |    Block of code to try                                          |
+               | }                                                                |
+               | catch(err)                                                       |
+               | {                                                                |
+               |    Block of code to handle errors                                |
+               | }                                                                |
+               | finally                                                          |
+               | {                                                                |
+               |    Block of code to be executed regardless of try / catch result |
+               | }                                                                |
+               |                                                                  |
+               +------------------------------------------------------------------+
+
+      +=============+====================================================+
+   -> | Parameter   | Description                                        |
+      +=============+====================================================+
+      | tryCode     | Required.                                          |
+      |             | Code block to be tested while executing.           |
+      +-------------+----------------------------------------------------+
+      | err         | A local reference to the error object.             |
+      +-------------+----------------------------------------------------+
+      | catchCode   | Optimal.                                           |
+      |             | Code block to execute if an error occurs.          |
+      +-------------+----------------------------------------------------+
+      | finallyCode | Optimal.                                           |
+      |             | Code block to execute regardless of the try result |
+      +=============+====================================================+
+
+---> The Error Object :-
+
+  -> JavaScript has a built in error object that provides error information when an error occurs.
+  -> The error object provides two useful properties: name and message.
+
+  => Error Object Properties :-
+
+     +==========+============================================+
+     | Property | Description                                |
+     +==========+============================================+
+     | name     | Sets or returns an error name              |
+     +----------+--------------------------------------------+
+     | message  | Sets or returns an error message(a string) |
+     +==========+============================================+
+
+  => Error Name Values :-
+
+     +================+==============================================+
+     | Error Name     | Description                                  |
+     +================+==============================================+
+     | EvalError      | An error has occurred in the eval() function | 
+     +----------------+----------------------------------------------+
+     | RangeError     | A number "out of range" has occurred         |
+     +----------------+----------------------------------------------+
+     | ReferenceError | An illegal reference has occurred            |
+     +----------------+----------------------------------------------+
+     | SyntaxError    | A syntax error has occurred                  |
+     +----------------+----------------------------------------------+
+     | TypeError      | A type error has occurred                    |
+     +----------------+----------------------------------------------+
+     | URIError       | An error in encodeURI() has occurred         |
+     +================+==============================================+
+
+  -> The six different values are described below.

@@ -1,0 +1,40 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+
+    border: 5px solid black;
+
+    /* ---: Padding :--- */
+
+    padding-top: 10px;
+
+    /* ---: Margin :--- */
+
+    margin: 20px 50px;
+}
+
+h1{
+
+    /* ---: Border Shorthand :--- */
+    
+    border: 2px dashed green;
+
+    margin: 0;
+
+    /* ---> "margin: 0" sets default margin to zero. */
+}
+
+button{
+       border: 2px solid black;
+       border-radius: 10px;
+       padding: 0px 30px 0px 30px; 
+       background-color: yellow;
+
+       /* ---: Shorthand Margin :--- */
+
+       margin: 80px 80px 80px 80px;
+}
+
+
+/* ---> "margin" property is used to provide space between two HTML elements. */

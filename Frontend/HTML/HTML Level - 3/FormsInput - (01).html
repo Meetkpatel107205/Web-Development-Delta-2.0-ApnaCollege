@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <!-- -: Form - 1 :- -->
+      <form action="/server">
+      <!-- Username -->
+        <div>
+        <label for="username">Username : </label>
+        <!-- "label Elemnet" represents a caption for an item in a user interface. -->
+        <input type="text" placeholder="Enter Username" id="username" name="username">
+        <!-- "placeholder Attribute" is used to provide a brief hint
+        to the user as to the expected type of data that should be 
+        entered into the control. -->
+        <!-- "Name Attribute" is Name of form control.
+        Submitted with the form as part of a name/value pair. -->
+        </div>
+      <!-- Password -->
+        <div>
+        <label for="password">Password : </label>
+        <input type="password" placeholder="Enter Password" id="password" name="password">
+        </div>
+      <!-- Age -->
+        <div>
+        <label for="age">Enter Age : </label>
+        <input type="number" placeholder="Enter Your Age" id="age">
+        </div>
+      <!-- Time -->
+        <div>
+        <label for="time">Time : </label>
+        <input type="time" id="time">
+        </div>
+      <!-- Color -->
+        <div>
+        <label for="color">Color : </label>
+        <input type="color" id="color">
+        </div>
+      <!-- Submit & Reset -->
+        <div>
+             <button>Submit</button>
+             <!-- "button Element" is used to create button in HTML form. -->
+             <!-- When we click on button on webpage it can perform an action. -->
+             <!-- In Form Tag By Default a "button" is sumbit all the information of form 
+             which is given by a user. -->
+             <input type="reset" value="Reset">
+             <!-- We can also create "button" using input tag like shown in line 47. -->
+             <!-- Generally it is not advisible in HTML to create button using input tag. -->
+        </div>
+      </form>
+
+        <hr />
+      <!-- -: Form - 2 :- -->
+        <div>
+              <form action="https://www.youtube.com/results">
+                <input typr="text" placeholder="Search in Youtube" name="search_query">
+                <button>Search</button>
+                </form>
+        </div>
+</body>
+</html>
+
+<!-- "Form Element" is used to create form with the help of HTML. -->
+<!-- "Input Attribute" is used to take input from user in HTML form. -->
+ 

@@ -1,0 +1,14 @@
+section{
+        font-size: 15px;
+}
+
+div{
+    font-size: 2em;
+}
+
+
+/* ---> If, for instance, the div element were inside a body element whose font-size 
+        was also specified in ems, that value would become a part of the equation too. 
+        This is the compounding effect. You could maybe think of it like a snowball effect. 
+        The font-sizes snowball on top of each other and create an end-result that might be much 
+        different than you want. */

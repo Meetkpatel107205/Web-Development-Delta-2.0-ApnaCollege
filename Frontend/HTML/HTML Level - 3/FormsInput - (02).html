@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <form action="/server">
+        <!-- Checkbox Element -->
+             <div>
+             <input type="checkbox" id="age" name="age" />
+             <label for="age">I am 18+</label>
+             <!-- "checkbox Element" is used to create Checkbox in HTML. -->
+             <!-- By default keyword for checkbox is "checked" -->
+             <button>Submit</button>
+             </div>
+             <hr />
+
+        <!-- Radio Button Element -->
+             <div>
+             <input type="radio" id="apple" name="fruit" value="apple" />
+             <label for="apple">Apple</label>
+             <!-- "radio Button Element" is used to create Radio Button in HTML. -->
+             <!-- If We have to fill only 1 radio button from multiple radio button
+             then we have to give same values for "name Attriute" in every radio button. -->
+             <input type="radio" id="mango" name="fruit" value="mango" />
+             <label for="mango">Mango</label>
+             <input type="radio" id="banana" name="fruit" value="banana" />
+             <label for="banana">Banana</label>
+             <button>Submit</button>
+             </div>
+             <hr />
+
+             <div>
+                  <label for="subject">Choose your Subject's : </label>
+                  <input type="checkbox" id="maths" name="subject" value="maths">
+                  <label for="maths">Maths</label>
+                  <input type="checkbox" id="physics" name="subject" value="physics">
+                  <label for="physics">Physics</label>
+                  <input type="checkbox" id="chemistry" name="subject" value="maths">
+                  <label for="chemistry">Chemistry</label>
+                  <button>Submit</button>
+             </div>
+             <hr />
+
+             <div>
+                  Select your Profession : 
+                  <select name="Profession" id="Profession">
+                  <!-- "select Element" represents a control that provides a menu of options. -->
+                          <option>Select Your Option</option>
+                          <option value="stu">Student</option>
+                  <!-- By default keyword for select is "selected". -->
+                          <option value="dev">Developer</option>
+                  </select>
+                  <button>Submit</button>
+             </div>
+             <hr />
+
+             <div>
+                  <label for="Volume">Select your Volume level : </label>
+                  <input type="range" name="Volume" id="Volume" min="0" max="100" step="10" value="70">
+                  <!-- "range Element" let the user specify a numeric value which must be no less than a given value,
+                  and no more than another given value. The precise value, however, is not considered important.
+                  This is typically represented using a slider or dial control rather than a text entry box like
+                  the number input type. -->
+                  <!-- The value will be a multiple of step with the use of "step Attribute". -->
+                  <button>Submit</button>
+             </div>
+             <hr />
+
+             <div>
+                  <label for="feedback">Please provide your valuable feedback : </label>
+                  <textarea id="feedback" name="feedback" rows="3" cols="20" 
+                  placeholder="Write your feedback here"></textarea>
+                  <!-- The <textarea> HTML element represents a multi-line plain-text editing control, useful when
+                  you want to allow users to enter a sizeable amount of free-form text, for example a comment
+                  on a review or feedback form. -->
+                  <button>Submit</button>
+             </div>
+             <hr />
+      </form>
+</body>
+</html>
+
+
+<!-- "checkbox Element" is used when we have to make multiple choice's from
+     multiple options. -->
+<!-- "radio Button Element" is used when we have to make single choice's from
+     multiple options. -->
+<!-- "select Element" used to provide a menu of options. -->
+<!-- "range Element" typically represented using a slider or dial control
+     rather than a text entry box like the number input type. -->
+<!-- "textarea Element" is used to enter a sizeable amount of free-form text. -->

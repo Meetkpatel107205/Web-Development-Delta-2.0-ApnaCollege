@@ -1,0 +1,26 @@
+div{
+    background-color: yellow;
+}
+
+/*form{
+     background-color: red;
+}
+*/
+
+input{
+      background-color: inherit;
+}
+
+button{
+       background-color: inherit;
+}
+
+button:hover{
+             background-color: red;
+}
+
+
+/* "Inheritance" controls what happens when no value
+   is specified for a property on an element. */
+/* Not all property inherit by default for example
+   width,height,border,etc. */

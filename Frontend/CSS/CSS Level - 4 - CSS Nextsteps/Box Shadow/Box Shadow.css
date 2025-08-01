@@ -1,0 +1,15 @@
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 8px 8px black;
+}
+
+/* ---> It adds shadow effect around an element's frame. */
+/* ---> It has 4 parameters :-
+        1. X offset
+        2. Y offset
+        3. blur - radius
+        4. shadow color */

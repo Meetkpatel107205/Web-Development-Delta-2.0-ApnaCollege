@@ -1,0 +1,74 @@
+#Container{
+           height: 500px;
+           width: 80%;
+           background-color: azure;
+           margin: 10px auto;
+           border: 2px solid black;
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-start;
+           flex-wrap: wrap;
+}
+
+h1{
+   text-align: center;
+}
+
+#Container div{
+               height: 100px;
+               width: 300px;
+               color: white;
+               text-align: center;
+               font-size: 1.5em;
+}
+
+/* ---> By Default Flex Box Adjustment :---
+
+   -> If we set container Height And Width as,
+   
+   1.) height: 500;
+   2.) width: (80% of It's Parent Element);
+
+*/
+
+/* ---> By Default Flex Box Adjustment View :---
+
+   ---> By Default Flex Box shrink or grow height and width of the flex items and set flex items
+        in flex container according to it's main axis.
+
+   +------------------------------------------------+ 
+   |                                                |
+   |+----+ +----+ +----+ +----+ +----+ +----+ +----+| /*! <---- Flex Container
+   ||    | |    | |    | |    | |    | |    | |    ||
+   ||    | |    | |    | |    | |    | |    | |    ||
+   |+----+ +----+ +----+ +----+ +----+ +----+ +----+|
+   |  1       2     3      4       5     6       7  | 
+   |                                     |          | 
+   |                                     |          | 
+   +-------------------------------------|----------+
+                                         |
+                                  /*! Flex Items 
+
+*/
+
+/* ---> After Applying flex-wrap: wrap :---
+   
+   +------------------------------------------------+ 
+   |                                                |
+   |    +-----+    +-----+    +-----+    +-----+    | /*! <---- Flex Container
+   |    |     |    |     |    |     |    |     |    |
+   |    |     |    |     |    |     |    |     |    |
+   |    +-----+    +-----+    +-----+    +-----+    |
+   |       1          2          3          4       | 
+   |                                                | 
+   |    +-----+    +-----+    +-----+               | 
+   |    |     |    |     |    |     | <---          | 
+   |    |     |    |     |    |     |    |          | 
+   |    +-----+    +-----+    +-----+    |          | 
+   |       5          6          7       |          | 
+   +-------------------------------------|----------+
+                                         |  
+                                 /*! Flex Items 
+
+*/
+

@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#Static{
+        background-color: yellow;
+        position: static;
+        top: 100px;
+        left: 100px;
+}
+
+/* ---> The "position" property sets how an elements is positioned in a document. */
+/* ---> The top,right,bottom and left determine the final location of position elements. */
+/* ---> "position" property has 4 types :-
+        1. static
+        2. relative
+        3. absolute
+        4. fixed */
+
+/* ---> "position: static" have no effect,this is the default value. */

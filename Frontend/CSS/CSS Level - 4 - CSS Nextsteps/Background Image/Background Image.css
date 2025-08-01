@@ -1,0 +1,16 @@
+div{
+    height: 200px;
+    width: 400px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("Rolls Royce.jpg");
+    /* background-size: contain; */
+    background-size: cover;
+    /* background-size: auto; */
+    color: white;
+}
+
+/* ---> "background-image" lets you set an image as a background. */
+/* ---> "background-size: contain" repeat the image into the element according to image size. */
+/* ---> "background-size: cover" crop the image and set into the element according to image size. */
+/* ---> "background-size: auto" strech the image and set into the element according to image size. */

@@ -1,0 +1,7 @@
+button{
+       font-size: 50px;
+       border-radius: 15px;
+       border: 5px solid green;
+       padding-left: 1em; /* ---> Here element is relative to the font-size of its own element.*/
+       padding-right: 1em;
+}

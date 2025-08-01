@@ -1,0 +1,33 @@
+#Para1{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+
+    border: 5px solid black;
+
+    /* ---: Border Radius :--- */
+    
+    border-top-right-radius: 15px;
+}
+
+#Para2{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+
+    border: 5px solid black;
+    
+    /* ---: Border Radius :--- */
+    
+    border-radius: 50%;
+}
+
+h1{
+
+    /* ---: Border Shorthand :--- */
+    
+    border: 2px dashed green;
+}
+
+/* ---> If we set the same height and width to the HTML Element and then
+        give "border-radius: 50%" then that HTML Element made a Circle. */

@@ -1,0 +1,15 @@
+.Container{
+           width: 600px;
+           height: 300px;
+           background-color: yellow;
+           display: grid;
+           grid-template-columns: 110px 110px 110px 110px 110px;
+}
+
+.Item{
+      width: 100px;
+      height: 50px;
+      background-color: greenyellow;
+      border: 2px solid black;
+      text-align: center;
+}

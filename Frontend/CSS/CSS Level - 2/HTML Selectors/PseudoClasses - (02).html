@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="PseudoClasses - (02).css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+      <form action="/action">
+        <label for="fn">First Name :</label>
+        <input type="text" id="fn" name="FirstName" placeholder="First Name" required>
+      <br></br>
+        <label for="ln">Last Name :</label>
+        <input type="text" id="ln" name="LastName" placeholder="Last Name" readonly>
+      <br></br>
+        <label for="age">Your Age :</label>
+        <input type="number" id="age" name="age" min="10" max="20">
+      <br></br>
+        <label for="email">Your Email-id :</label>
+        <input type="email" id="email" name="email" placeholder="example10@gmail.com" required>
+      <br></br>
+        Your Hobbies :
+        <input type="checkbox" id="sports" name="hobbies">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="hobbies">
+        <label for="music">Music</label>
+        <input type="checkbox" id="travel" name="hobbies">
+        <label for="travel">Travel</label>
+        <input type="checkbox" id="book" name="hobbies" checked>
+        <label for="book">Books Reading</label>
+      <br></br>
+        Your Gender :
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+      <br></br>
+        Your Country :
+        <select name="country" disabled>
+                <option for="s">Surat</option>
+                <option for="a">Ahemedabad</option>
+                <option for="v">Vadodra</option>
+        </select>
+      <br></br>
+      <button>Submit</button>
+      </form>
+</body>
+</html>

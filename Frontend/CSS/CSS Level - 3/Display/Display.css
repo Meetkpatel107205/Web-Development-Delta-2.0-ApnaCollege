@@ -1,0 +1,16 @@
+h1{
+    display: inline;
+    background-color: blueviolet;
+}
+
+h2{
+   display: inline;
+   background-color: blueviolet;
+}
+
+span{
+     display: block;
+     background-color: yellowgreen;
+}
+
+/* ---> We can make any Element "Inline or Block" using "Display" Property. */

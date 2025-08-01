@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    width: 200px;
+
+    /* ---: Alpha Channel :--- */
+    
+    background-color: #51ff00ff;
+}
+
+/* ---> "Alpha Channel" is used to sets the opacity for a color. */
+/* ---> It ranges from 0 to 1 or in Hex code 00 to ff. */
+/* ---> Syntax :- background-color: rgba(255,255,255,0.3) here 0.3 is alpha channel's value. */
+/* ---> Syntax :- background-color: #ffff00ff here last ff is alpha channel's value. */
+/* ---> Alpha channel value 0 make color completely dissapear from the element. */

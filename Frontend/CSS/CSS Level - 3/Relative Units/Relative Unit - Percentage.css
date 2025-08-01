@@ -1,0 +1,23 @@
+h1{
+   border: 2px solid black;
+   width: 50%; /* ---> This width is Relative to HTML Element,
+                       Because HTML Tag is by default parent object of all tags.*/
+}
+
+#Outer{
+       height: 300px;
+       width: 300px;
+       background-color: pink;
+       margin: 50px;
+}
+
+#Inner{
+       height: 100px;
+       width: 100px;
+       background-color: cornflowerblue;
+       margin-left: 10%;
+}
+
+
+/* ---> Percentage unit(%) is used to define a size as relative to an element's 
+        Parent object. */

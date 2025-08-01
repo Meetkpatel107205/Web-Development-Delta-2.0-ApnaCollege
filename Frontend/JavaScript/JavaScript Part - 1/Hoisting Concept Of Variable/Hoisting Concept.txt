@@ -1,0 +1,73 @@
+---> Hoisting Concept :-
+    
+  -> Hoisting is a behavior in JavaScript where variable and function declarations are moved to the
+     top of their containing scope during the compile phase, before code execution.
+
+  -> This means that you can use a variable or function before declaring it in the code. However,
+     there are differences in how variables declared with var, let, const, and functions are hoisted.
+
+---> Features of Hoisting :-
+   
+  -> Declarations are hoisted, not initializations.
+  -> Allows calling functions before their declarations.
+  -> All variable and function declarations are processed before any code execution.
+  -> Undeclared variables are implicitly created as global variables when assigned a value.
+
+---> Note - 1 : 1.) JavaScript only hoists declarations, not initializations.
+                2.) JavaScript allocates memory for all variables and functions defined in the program before execution.
+
+---> Note - 2 : There’s a difference between ReferenceError and undefined errors. An undefined error occurs when 
+                we have a variable that is either not defined or explicitly defined as type undefined.
+                ReferenceError is thrown when trying to access a previously undeclared variable. 
+
+---> Sequence of Variable declaration :-
+
+     +---------------------------------------------------+
+  -> | Declaration –> Initialisation/Assignment –> Usage |
+     +---------------------------------------------------+
+
+---> Variable lifecycle
+
+  -> +---------------------------------+
+     | let a;           // Declaration |
+     | a = 100;         // Assignment  |
+     | console.log(a);  // Usage       |
+     +---------------------------------+
+
+  -> However, since JavaScript allows us to both declare and initialize our variables simultaneously,
+     so we can declare and initialize at the same time.  
+
+     +-------------+
+  -> | let a = 100 |
+     +-------------+
+
+---> Note: Always remember that in the background the Javascript is first declaring the variable and
+           then initializing them. It is also good to know that variable declarations are processed 
+           before any code is executed. 
+
+  -> However, in javascript, undeclared variables do not exist until the code assigning them is executed.
+     Therefore, assigning a value to an undeclared variable implicitly creates it as a global variable when
+     the assignment is executed. This means that all undeclared variables are global variables.
+
+---> JavaScript var Hosting :-
+
+  -> +---------------------------------+
+     | console.log(name); // undefined |
+     | var name = 'Meet Patel';        |
+     +---------------------------------+
+
+  -> How Interpreter sees the above code :-
+
+  -> +---------------------------------+
+     | var name; // <--- Hoisting      |
+     | console.log(name); // undefined |
+     | var name = 'Meet Patel';        |
+     +---------------------------------+
+
+---> JavaScript Hoisting with let :-
+
+  -> +------------------------------------------------------------+
+     | console.log(name); // ReferenceError : name is not defined |
+     | let name = 'Meet Patel';                                   |
+     +------------------------------------------------------------+
+

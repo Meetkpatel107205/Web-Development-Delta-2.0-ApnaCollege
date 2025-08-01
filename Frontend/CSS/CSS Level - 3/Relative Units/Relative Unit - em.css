@@ -1,0 +1,23 @@
+#Outer{
+       height: 400px;
+       width: 400px;
+       border: 2px solid black;
+       background-color: pink;
+       font-size: 10px;
+
+}
+
+#Inner{
+       height: 100px;
+       width: 100px;
+       border: 2px solid black;
+       background-color: cornflowerblue;
+       font-size: 3em;
+       padding: 1em;
+}
+
+
+/* ---> "em" is a unit of measurement which indicates size relative to the size of the font. */
+
+/* ---> "em" is a Typographical Property. */
+/* ---> Typographical Property :- Text related properties. */

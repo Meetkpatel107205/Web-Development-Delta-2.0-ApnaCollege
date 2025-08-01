@@ -1,0 +1,158 @@
+h3{
+   color: antiquewhite !important;
+}
+
+/* Universal Selector */
+*{
+  font-family:'Courier New';
+}
+
+/* Element Selector */
+h1,h3{
+   color: #b92b27;
+}
+
+/* ID Selector */
+#login{
+       background-color: white;
+}
+
+#signup{
+        color: white;
+        background-color: #b92b27;
+}
+
+/* Class Selector */
+.upvote{
+        color: aliceblue;
+        background-color: green;
+}
+
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+/* Descendant Selector */
+nav ul li a{
+            color: hotpink;
+}
+
+/* Adjacent Sibling Combinator */
+p + h3{
+       text-decoration: underline;
+}
+
+.upvote + button{
+                 color: darkblue;
+                 background-color:cornflowerblue;
+}
+
+/* Child Combinator */
+div > input{
+            background-color: darksalmon;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+                   color: green;
+}
+
+input[type="password"]{
+                       color: red;
+}
+
+input[type]{
+            background-color: ghostwhite;
+}
+
+div[id="myid"]{
+               color: green;
+}
+
+/* Pseudo Class */
+button:hover{
+             color: white;
+             background-color: black;
+}
+
+h3:hover{
+         text-decoration: overline;
+}
+
+button:active{
+              background-color: hotpink;
+}
+
+p:active{
+         font-weight: bold;
+         color: green;
+}
+
+input[type="radio"]:checked + label{
+                    color: red;
+                    font-weight: bold;
+}
+
+div:nth-of-type(2){
+                    background-color: blanchedalmond;
+}
+
+/* Pseudo Element */
+h1::first-letter{
+                 color: black;
+}
+
+p::first-line{
+              color: blue;
+}
+
+p::selection{
+             background-color: rgb(199,192,58);
+}
+
+/* Specificity */
+h3{
+   background-color: yellow;
+}
+
+h3{
+   background-color: blue;
+}
+
+/* "*" Symbol is called "Universal Selector". */
+/* "* (Universal Selector)" is used to select everything
+ in a document. */
+
+/* "h1 and h3" are called "Element Selector". */
+
+/* "#myid" is called "ID Selector". */
+/* "#myid (ID Selector)" is used to give a style to particular
+   element. */
+
+/* ",myclass" is called "Class Selector". */
+/* ".myclass (Class Selector)" is used to select an element
+   based on their class attribute. */
+
+/* Here in line 28 "nav ul li a" is called "Descendant Selector". */
+/* "Descendant Selector" is used to give style to all elements 
+   inside given divs. */
+
+/* Here in line 32 and 36 "p + h3" and ".upvote + button" is 
+   called "Adjacent Sibling Cmbinator". */
+
+/* "Combinator" combine multiple selectors. */
+
+/* "Adjacent Sibling Cmbinator" is used to give style a tag that
+   comes immediately after any tag which written left side of
+   combinator.*/
+
+/* ">" symbol is called "Child Combinator". */
+/* "> (Child Combinator)* is used to give style to a tag that
+   direct children of tag which has written on the left side. */
+
+/* "Pseudo Class" is a keyword added to a selector that
+   specifies a special state of the selected elements. */
+
+/* "Pseudo Element" is a keyword added to a selector that
+lets you style a specific part of the selected elements. */

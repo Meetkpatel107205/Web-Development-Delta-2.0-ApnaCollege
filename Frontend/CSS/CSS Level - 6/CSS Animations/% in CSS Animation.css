@@ -1,0 +1,24 @@
+.Box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* ---: Animation Shorthand :--- */
+
+    animation: WidthAnimation 3s ease-in 0s 2 normal;
+}
+
+@keyframes WidthAnimation{
+                       0% {
+                           background-color: green;
+                       }
+                       50% {
+                            background-color: yellow;
+                       }
+                       80% {
+                            background-color: Red;
+                       }
+                       100% {
+                             background-color: Blue;
+                       }
+}

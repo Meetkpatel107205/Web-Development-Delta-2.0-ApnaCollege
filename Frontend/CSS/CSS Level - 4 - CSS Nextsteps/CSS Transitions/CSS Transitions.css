@@ -1,0 +1,23 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: #51ff00ff;
+
+    /* ---: Transition Property :--- */
+    
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+div:hover{
+          background-color: black;
+          border-radius: 50%;
+}
+
+/* ---> "transition" property enable you to define the transition between two states
+        of an element. */
+/* ---> "transition" property have 4 parameters :-
+        1. property name
+        2. duration
+        3. timing function
+        4. delay */

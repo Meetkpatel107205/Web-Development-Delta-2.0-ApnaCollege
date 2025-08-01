@@ -1,0 +1,25 @@
+#Container{
+           height: 500px;
+           width: 80%;
+           background-color: azure;
+           margin: 10px auto;
+           border: 2px solid black;
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-start;
+}
+
+h1{
+   text-align: center;
+}
+
+#Container div{
+               height: 50px;
+               width: 100px;
+               color: white;
+               text-align: center;
+               font-size: 1.5em;
+}
+
+/* justify-content :- Tells how the browser distributes space between and around content
+                      items /*! along the main axis.
